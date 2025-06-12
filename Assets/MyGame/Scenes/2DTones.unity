@@ -769,7 +769,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712559118}
-  - component: {fileID: 712559117}
   - component: {fileID: 712559119}
   m_Layer: 0
   m_Name: Manager
@@ -778,21 +777,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &712559117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712559116}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4050e1b3fd216d42b6e961e69e74694, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorAndTone: {fileID: 510164979}
-  colorImage: {fileID: 1235269253}
-  colorText: {fileID: 666251096}
 --- !u!4 &712559118
 Transform:
   m_ObjectHideFlags: 0
@@ -1342,9 +1326,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 712559116}
+      - m_Target: {fileID: 712559119}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: LoadToneScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

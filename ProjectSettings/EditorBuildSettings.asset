@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MyGame/Scenes/2DTones.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/MyGame/Scenes/ToneGameV1.unity
+    guid: 18fbaaa55e2a79942aa6cd1a4532efa1
+  - enabled: 1
+    path: Assets/MyGame/Scenes/GameOver.unity
+    guid: da97b1fa6b7417f4dadfa9b9183bf15e
   m_configObjects: {}
