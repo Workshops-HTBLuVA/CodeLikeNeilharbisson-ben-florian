@@ -5,6 +5,10 @@ In diesem Workshop entwickeln die Teilnehmenden ihr eigenes Minispiel rund um da
 
 Der Einstieg erfolgt über Design und Sinneswahrnehmung – visuelle Elemente werden mit Klang verknüpft. Danach wird Schritt für Schritt ein einfaches Unity-Spiel gebaut. Ziel ist es, Farben anhand von Tönen zu erkennen und daraus ein persönliches Spielkonzept zu gestalten.
 
+
+https://github.com/user-attachments/assets/aebe0aee-66d8-4fbe-899e-b0dbbcc97cfb
+
+
 Ziele:
 
 + Einblick in die 5 Phasen des Game Design
