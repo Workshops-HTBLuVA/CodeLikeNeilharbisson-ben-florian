@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MyGame/Scenes/2DTones.unity
+    path: Assets/MyGame/Scenes/Intro.unity
+    guid: 4925f53dcd10cbc409d0fe94fcd1a388
+  - enabled: 1
+    path: Assets/MyGame/Scenes/2DTonesTutorial.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/MyGame/Scenes/ToneGameV1.unity

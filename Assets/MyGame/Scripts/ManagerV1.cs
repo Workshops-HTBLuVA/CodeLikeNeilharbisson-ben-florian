@@ -32,15 +32,21 @@ public class ManagerV1 : MonoBehaviour
         highScoreText.text = PlayerPrefs.GetInt("score").ToString();
         PlayTask(tasks[progress]);
     }
-    public void nexttask()
+
+    public void NextTask()
     {
         progress++;
-        if (progress >= tasks.Length) 
-        {
-            progress = 0;
-        }
+
+        //if (progress >= tasks.Length) 
+        //{
+        //    progress = 0;
+        //}
+
+        progress = UnityEngine.Random.Range(0, tasks.Length);
+
         PlayTask(tasks[progress]);
     }
+
     public void PlayTask(ColorSoundTask task)
     {
         audioSource.clip = task.targetSound;
@@ -87,6 +93,8 @@ public class ManagerV1 : MonoBehaviour
             }
             
         }
+
+        NextTask();
     }
 
     private void LoadGameOverScene()

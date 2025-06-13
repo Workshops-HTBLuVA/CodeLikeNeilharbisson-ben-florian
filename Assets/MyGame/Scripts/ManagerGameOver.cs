@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -16,7 +14,13 @@ public class ManagerGameOver : MonoBehaviour
 
     public void LoadTutorialScene()
     {
-        SceneManager.LoadScene("2DTones");
+        SceneManager.LoadScene("2DTonesTutorial");
+    }
+
+    public void ClearHighscore()
+    {
+        PlayerPrefs.SetInt("score", 0);
+        highscore.text = "0";
     }
     
 }
